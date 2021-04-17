@@ -1,0 +1,27 @@
+name: flutter_push_ups
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.0.0
+  path_provider: ^2.0.1
+  flutter_local_notifications: ^5.0.0+1
+  flutter_native_timezone: ^1.0.10
+  flutter_material_pickers: ^2.1.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/training-plan.json
